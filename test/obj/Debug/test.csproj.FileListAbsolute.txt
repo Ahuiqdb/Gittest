@@ -7,3 +7,6 @@ D:\2012work\test\test\obj\Debug\test.Properties.Resources.resources
 D:\2012work\test\test\obj\Debug\test.csproj.GenerateResource.Cache
 D:\2012work\test\test\obj\Debug\test.exe
 D:\2012work\test\test\obj\Debug\test.pdb
+D:\2012work\Gittest\test\bin\Debug\test.exe.config
+D:\2012work\Gittest\test\obj\Debug\test.exe
+D:\2012work\Gittest\test\obj\Debug\test.pdb
