@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Common;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,14 +20,14 @@ namespace test
         string filePath = "";
         private void button1_Click(object sender, EventArgs e)
         {
-            //创建文件弹出选择窗口（包括文件名）对象
-            OpenFileDialog ofd = new OpenFileDialog();
-            //判断选择的路径
-            if (ofd.ShowDialog() == DialogResult.OK)
-            {
-                this.textBox1.Text = ofd.FileName.ToString();
-            }
-            filePath = this.textBox1.Text;
+            string mw = Base64.MD5Encrypt32(this.textBox1.Text);
+            this.textBox2.Text = mw;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //string mw = Base64.DecodeBase64(this.textBox2.Text);
+            //this.textBox3.Text = mw;
         }
     }
 }
