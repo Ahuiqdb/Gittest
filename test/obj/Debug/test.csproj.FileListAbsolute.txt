@@ -17,3 +17,5 @@ D:\2012work\Gittest\test\obj\Debug\test.Form1.resources
 D:\2012work\Gittest\test\obj\Debug\test.Properties.Resources.resources
 D:\2012work\Gittest\test\obj\Debug\test.csproj.GenerateResource.Cache
 D:\2012work\Gittest\test\obj\Debug\test.htmltoword.resources
+D:\2012work\Gittest\test\obj\Debug\test.pinyin.resources
+D:\2012work\Gittest\test\obj\Debug\test.main.resources

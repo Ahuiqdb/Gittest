@@ -57,6 +57,19 @@
     <Compile Include="htmltoword.Designer.cs">
       <DependentUpon>htmltoword.cs</DependentUpon>
     </Compile>
+    <Compile Include="main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main.Designer.cs">
+      <DependentUpon>main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pinyin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pinyin.Designer.cs">
+      <DependentUpon>pinyin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pinyinutil.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -64,6 +77,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="htmltoword.resx">
       <DependentUpon>htmltoword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main.resx">
+      <DependentUpon>main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pinyin.resx">
+      <DependentUpon>pinyin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
