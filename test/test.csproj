@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Base64.cs" />
+    <Compile Include="FirstLetter.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +71,7 @@
       <DependentUpon>pinyin.cs</DependentUpon>
     </Compile>
     <Compile Include="pinyinutil.cs" />
+    <Compile Include="PolyPhonePinyin.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
